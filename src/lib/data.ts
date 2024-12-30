@@ -1,6 +1,6 @@
 // TEMPORARY DATA
 
-export let role = "admin";
+export let role = "student";
 
 export const teachersData = [
   {
@@ -134,7 +134,7 @@ export const studentsData = [
     photo:
       "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    grade: 5,
+    specialization: 5,
     class: "1B",
     address: "123 Main St, Anytown, USA",
   },
@@ -146,7 +146,7 @@ export const studentsData = [
     photo:
       "https://images.pexels.com/photos/936126/pexels-photo-936126.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    grade: 5,
+    specialization: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
@@ -158,7 +158,7 @@ export const studentsData = [
     photo:
       "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    grade: 5,
+    specialization: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
@@ -170,7 +170,7 @@ export const studentsData = [
     photo:
       "https://images.pexels.com/photos/1187765/pexels-photo-1187765.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    grade: 5,
+    specialization: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
@@ -182,7 +182,7 @@ export const studentsData = [
     photo:
       "https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    grade: 5,
+    specialization: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
@@ -194,7 +194,7 @@ export const studentsData = [
     photo:
       "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    grade: 5,
+    specialization: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
@@ -206,7 +206,7 @@ export const studentsData = [
     photo:
       "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    grade: 5,
+    specialization: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
@@ -218,7 +218,7 @@ export const studentsData = [
     photo:
       "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    grade: 5,
+    specialization: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
@@ -230,7 +230,7 @@ export const studentsData = [
     photo:
       "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    grade: 5,
+    specialization: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
@@ -242,7 +242,7 @@ export const studentsData = [
     photo:
       "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    grade: 5,
+    specialization: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
@@ -389,70 +389,70 @@ export const classesData = [
     id: 1,
     name: "1A",
     capacity: 20,
-    grade: 1,
+    specialization: 1,
     supervisor: "Joseph Padilla",
   },
   {
     id: 2,
     name: "2B",
     capacity: 22,
-    grade: 2,
+    specialization: 2,
     supervisor: "Blake Joseph",
   },
   {
     id: 3,
     name: "3C",
     capacity: 20,
-    grade: 3,
+    specialization: 3,
     supervisor: "Tom Bennett",
   },
   {
     id: 4,
     name: "4B",
     capacity: 18,
-    grade: 4,
+    specialization: 4,
     supervisor: "Aaron Collins",
   },
   {
     id: 5,
     name: "5A",
     capacity: 16,
-    grade: 5,
+    specialization: 5,
     supervisor: "Iva Frank",
   },
   {
     id: 5,
     name: "5B",
     capacity: 20,
-    grade: 5,
+    specialization: 5,
     supervisor: "Leila Santos",
   },
   {
     id: 7,
     name: "7A",
     capacity: 18,
-    grade: 7,
+    specialization: 7,
     supervisor: "Carrie Walton",
   },
   {
     id: 8,
     name: "6B",
     capacity: 22,
-    grade: 6,
+    specialization: 6,
     supervisor: "Christopher Butler",
   },
   {
     id: 9,
     name: "6C",
     capacity: 18,
-    grade: 6,
+    specialization: 6,
     supervisor: "Marc Miller",
   },
   {
     id: 10,
     name: "6D",
     capacity: 20,
-    grade: 6,
+    specialization: 6,
     supervisor: "Ophelia Marsh",
   },
 ];
@@ -520,6 +520,30 @@ export const lessonsData = [
   },
 ];
 
+
+export const roomsData = [
+  {
+    id: 1,
+    name: "C101",
+    capacity: 15,
+  },
+  {
+    id: 2,
+    name: "C102",
+    capacity: 15,
+  },
+  {
+    id: 3,
+    name: "C103",
+    capacity: 15,
+  },
+  {
+    id: 4,
+    name: "C104",
+    capacity: 15,
+  }
+];
+
 export const examsData = [
   {
     id: 1,
@@ -527,6 +551,7 @@ export const examsData = [
     class: "1A",
     teacher: "Martha Morris",
     date: "2025-01-01",
+    room: "Room 101",
   },
   {
     id: 2,
@@ -534,6 +559,7 @@ export const examsData = [
     class: "2A",
     teacher: "Randall Garcia",
     date: "2025-01-01",
+    room: "Room 102"
   },
   {
     id: 3,
@@ -541,6 +567,8 @@ export const examsData = [
     class: "3A",
     teacher: "Myrtie Scott",
     date: "2025-01-01",
+    room: "Room 103"
+
   },
   {
     id: 4,
@@ -548,6 +576,8 @@ export const examsData = [
     class: "1B",
     teacher: "Alvin Swanson",
     date: "2025-01-01",
+    room: "Room 101"
+
   },
   {
     id: 5,
@@ -555,6 +585,8 @@ export const examsData = [
     class: "4A",
     teacher: "Mabelle Wallace",
     date: "2025-01-01",
+    room: "Room 102"
+
   },
   {
     id: 6,
@@ -562,6 +594,8 @@ export const examsData = [
     class: "5A",
     teacher: "Dale Thompson",
     date: "2025-01-01",
+    room: "Room 102"
+
   },
   {
     id: 7,
@@ -569,6 +603,8 @@ export const examsData = [
     class: "6A",
     teacher: "Allie Conner",
     date: "2025-01-01",
+    room: "Room 101"
+
   },
   {
     id: 8,
@@ -576,6 +612,8 @@ export const examsData = [
     class: "6B",
     teacher: "Hunter Fuller",
     date: "2025-01-01",
+    room: "Room 103"
+
   },
   {
     id: 9,
@@ -583,6 +621,8 @@ export const examsData = [
     class: "7A",
     teacher: "Lois Lindsey",
     date: "2025-01-01",
+    room: "Room 105"
+
   },
   {
     id: 10,
@@ -590,6 +630,8 @@ export const examsData = [
     class: "8A",
     teacher: "Vera Soto",
     date: "2025-01-01",
+    room: "Room 101"
+
   },
 ];
 
@@ -921,57 +963,57 @@ export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 12, 8, 0),
-    end: new Date(2024, 7, 12, 8, 45),
-  },
-  {
+    start: new Date(2024, 11, 9, 8, 0),
+    end: new Date(2024, 11, 9, 8, 45),
+},
+{
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 12, 9, 0),
-    end: new Date(2024, 7, 12, 9, 45),
-  },
-  {
+    start: new Date(2024, 11, 9, 9, 0),
+    end: new Date(2024, 11, 9, 9, 45),
+},
+{
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 12, 10, 0),
-    end: new Date(2024, 7, 12, 10, 45),
-  },
-  {
+    start: new Date(2024, 11, 9, 10, 0),
+    end: new Date(2024, 11, 9, 10, 45),
+},
+{
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 12, 11, 0),
-    end: new Date(2024, 7, 12, 11, 45),
-  },
-  {
+    start: new Date(2024, 11, 9, 11, 0),
+    end: new Date(2024, 11, 9, 11, 45),
+},
+{
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 12, 13, 0),
-    end: new Date(2024, 7, 12, 13, 45),
-  },
-  {
+    start: new Date(2024, 11, 10, 13, 0),
+    end: new Date(2024, 11, 10, 13, 45),
+},
+{
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 12, 14, 0),
-    end: new Date(2024, 7, 12, 14, 45),
-  },
-  {
+    start: new Date(2024, 11, 10, 14, 0),
+    end: new Date(2024, 11, 10, 14, 45),
+},
+{
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 13, 9, 0),
-    end: new Date(2024, 7, 13, 9, 45),
-  },
-  {
+    start: new Date(2024, 11, 11, 9, 0),
+    end: new Date(2024, 11, 11, 9, 45),
+},
+{
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 13, 10, 0),
-    end: new Date(2024, 7, 13, 10, 45),
-  },
-  {
+    start: new Date(2024, 11, 11, 10, 0),
+    end: new Date(2024, 11, 11, 10, 45),
+},
+{
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 13, 11, 0),
-    end: new Date(2024, 7, 13, 11, 45),
-  },
+    start: new Date(2024, 11, 12, 11, 0),
+    end: new Date(2024, 11, 12, 11, 45),
+},
 
   {
     title: "History",
@@ -988,8 +1030,8 @@ export const calendarEvents = [
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 14, 10, 0),
-    end: new Date(2024, 7, 14, 10, 45),
+    start: new Date(2024, 12, 12, 10, 0),
+    end: new Date(2024, 12, 12, 10, 45),
   },
 
   {
@@ -1057,7 +1099,7 @@ export const calendarEvents = [
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 16, 14, 0),
-    end: new Date(2024, 7, 16, 14, 45),
+    start: new Date(2024, 12, 13, 14, 0),
+    end: new Date(2024, 12, 13, 14, 45),
   },
 ];
